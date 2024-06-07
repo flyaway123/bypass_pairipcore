@@ -11,3 +11,4 @@ public class Application extends App {
 	  super.attachBaseContext(context);
   }
 }
+一键修复
