@@ -1,0 +1,13 @@
+package com.pairip.application;
+
+import android.content.Context;
+import com.pairip.SignatureCheck;
+import com.vpn.free.hotspot.secure.vpnify.App; /* the main app package goes here,
+											in my case it was Vpnify */
+
+public class Application extends App {
+  public void attachBaseContext(Context context)  {
+	  SignatureCheck.verifyIntegrity(context);
+	  super.attachBaseContext(context);
+  }
+}
