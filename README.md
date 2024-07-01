@@ -13,4 +13,4 @@ bypass google play protect with pairipcore，绕过play保护，修复apk，防�
 
 ### How to contact ？
 
-* 企鹅：852579322
+* 852579322@qq.com
